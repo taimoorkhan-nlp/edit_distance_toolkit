@@ -1,6 +1,7 @@
-# Edit distance toolkit 
+# Analyzing Text Similarity and Distortion Using Edit Distance
 ## Description
-A method offers 3 edit distance variants to find distance (as edits) between two texts. It can be used to estimate how similar or dissimilar two texts representing two dialects of language, definitions of similar concepts across different disciplines or same news from two media sources are. Additionally the method also helps to distor text (using insertion, deletion, substitution and transposition operations) with personal information. It has the following operations:
+This method can be used to estimate how similar or dissimilar two texts representing two dialects of language, definitions of similar concepts across different disciplines or same news from two media sources are. Additionally the method also helps to distor text (using insertion, deletion, substitution and transposition operations) with personal information.
+The method offers 3 edit distance variants (Simple edit distance, Levenshtein edit distance and Damerau-levenshtein edit distance) and has the following operations:
 
 - simple edit distance between two texts (at word level)
 - simple edit distance between two texts (at character level)
@@ -9,6 +10,7 @@ A method offers 3 edit distance variants to find distance (as edits) between two
 - damerau-levenshtein edit distance between two texts (at word level)
 - demarau-levenshtein edit distance between two texts (at character level)
 - distorting or randomizing text for given number of spins of randomly picked operations (insertion, deletion, substitution and transposition)
+
 
 The methods are defined in `utils.py` and are called on sample tweets from the notebook `text_edit_distance.ipynb`
 
