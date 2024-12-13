@@ -14,7 +14,7 @@ The methods are defined in `utils.py` and are called on sample tweets from the n
 The method in plain python without any package installation and therefore, preserving the environment or the `requirements.txt` file is not required. Random seeds are defined to have predictable random numbers for reproducibility.
 
 ## Keywords
-edit distance, randomizing text, levenshtein edit distance
+Edit distance, Randomizing text, Simple edit distance, Levenshtein edit distance, Damerau-levenshtein
 
 ## Use cases
 - __Comparing Textual Similarity Across Different Domains:__ This method can be used to compare how similar or different definitions, phrases, or terminology are across different domains or contexts. For example, a social scientist could use the Simple Edit Distance or Levenshtein Edit Distance (at the word level) to compare the terminology used in different areas of research, such as "transparency" in public policy vs. "transparency" in computer science. This can help identify variations in the usage or meaning of terms across various fields.
