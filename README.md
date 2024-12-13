@@ -3,13 +3,10 @@
 This method calculates edit distance between two texts to estimate how similar or dissimilar two texts representing two dialects of language, definitions of similar concepts across different disciplines or same news from two media sources are. Additionally the method also helps to distor text (using insertion, deletion, substitution and transposition operations) with personal information.
 The method offers 3 edit distance variants (__Simple edit distance__, __Levenshtein edit distance__ and __Damerau-levenshtein edit distance__) and has the following operations:
 
-- simple edit distance between two texts (at word level)
-- simple edit distance between two texts (at character level)
-- levenshtein edit distance (with substitution cost 2) between two texts (at word level)
-- levenshtein edit distance (with submistution cost 2) between two texts (at character level)
-- damerau-levenshtein edit distance between two texts (at word level)
-- demarau-levenshtein edit distance between two texts (at character level)
-- distorting or randomizing text for given number of spins of randomly picked operations (insertion, deletion, substitution and transposition)
+- Simple edit distance between two texts (at word or character level)
+- Levenshtein edit distance (with substitution cost 2) between two texts (at the word or character level)
+- Damerau-levenshtein edit distance between two texts (at the word or character level)
+- Distorting or randomizing text for a given number of spins of randomly picked operations (insertion, deletion, substitution and transposition)
 
 
 The methods are defined in `utils.py` and are called on sample tweets from the notebook `text_edit_distance.ipynb`
